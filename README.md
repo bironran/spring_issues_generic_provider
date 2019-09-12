@@ -34,7 +34,7 @@ While in the general case this is impossible, in the case where only a single Pr
 caching proves very useful - essentially reducing the above quadratic scan to "no-scan" (constant time).
 
 Unfortunately Spring findAutowireCandidates() is not easy to cache and significant duplication of logic is required.
-See com.rb.springissues.generic_provider_injection.AutoWireFriendlyDefaultListableBeanFactory.java for details
+See https://github.com/bironran/spring_issues_generic_provider/blob/master/src/main/java/com/rb/springissues/generic_provider_injection/AutoWireFriendlyDefaultListableBeanFactory.java for details
 
 
 ## Web application integration
